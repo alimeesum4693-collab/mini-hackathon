@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Positivus - Digital Agency</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">★ Positivus</div>
+        <nav>
+            <a href="#">About us</a>
+            <a href="#">Services</a>
+            <a href="#">Use Cases</a>
+            <a href="#">Pricing</a>
+            <a href="#">Blog</a>
+            <button class="quote-btn">Request a quote</button>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-text">
+          <h1>Navigating the digital landscape for success</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            We help businesses grow online.
+          </p>
+          <button>Book a Consultation</button>
+        </div>
+          
+        <div class="hero-img">
+          <img src="images/a.png" alt="Hero Image">
+        </div>
+      </section>
+
+      <div class="y">
+        <img src="images/l.png" alt="images"
+      </div>
+      
+      <!-- SERVICES -->
+      <section class="services">
+        <h2>Services</h2>
+      
+        <div class="service-box">
+          <div class="card">
+            <img src="images/c.png" alt="">
+          
+           
+          </div>
+      
+          <div class="card">
+            <img src="images/d.png" alt="">
+            
+          </div>
+        </div>
+      </section>
+      
+      <div class="accordion">
+
+        <div class="accordion-item active">
+          <div class="accordion-header">
+            <div class="number-title">
+              <div class="number">01</div>
+              <div class="title">Consultation</div>
+            </div>
+            <div class="icon">−</div>
+          </div>
+          <div class="accordion-content">
+            During the initial consultation, we will discuss your business goals and objectives,
+            target audience, and current marketing efforts. This will allow us to understand your
+            needs and tailor our services to best fit your requirements.
+          </div>
+        </div>
+      
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <div class="number-title">
+              <div class="number">02</div>
+              <div class="title">Research and Strategy Development</div>
+            </div>
+            <div class="icon">+</div>
+          </div>
+          <div class="accordion-content"></div>
+        </div>
+      
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <div class="number-title">
+              <div class="number">03</div>
+              <div class="title">Implementation</div>
+            </div>
+            <div class="icon">+</div>
+          </div>
+          <div class="accordion-content"></div>
+        </div>
+      
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <div class="number-title">
+              <div class="number">04</div>
+              <div class="title">Monitoring and Optimization</div>
+            </div>
+            <div class="icon">+</div>
+          </div>
+          <div class="accordion-content"></div>
+        </div>
+      
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <div class="number-title">
+              <div class="number">05</div>
+              <div class="title">Reporting and Communication</div>
+            </div>
+            <div class="icon">+</div>
+          </div>
+          <div class="accordion-content"></div>
+        </div>
+      
+        <div class="accordion-item">
+          <div class="accordion-header">
+            <div class="number-title">
+              <div class="number">06</div>
+              <div class="title">Continual Improvement</div>
+            </div>
+            <div class="icon">+</div>
+          </div>
+          <div class="accordion-content"></div>
+        </div>
+      
+        <script src="app.js"></script>
+      </div>
+      
+      
+      <!-- CONTACT -->
+      <section class="contact">
+        <h2>Contact Us</h2>
+
+        <h7> contact with us : let discuss your digital marketing need</h2>
+      
+        <form>
+          <input type="text" placeholder="Your Name">
+          <input type="email" placeholder="Email">
+          <textarea rows="4" placeholder="Message"></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+      
+      <!-- FOOTER -->
+      <footer>
+        © 2026 Positivus. All Rights Reserved.
+      </footer>
+      
+      <script>
+      var acc = document.getElementsByClassName("accordion");
+      
+      for (var i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+          var panel = this.nextElementSibling;
+          panel.style.display =
+            panel.style.display === "block" ? "none" : "block";
+        });
+      }
+      </script>
+      
+      </body>
+      </html>
+</body>
+</html>
